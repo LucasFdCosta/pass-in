@@ -1,6 +1,3 @@
-#db
-../PassInDb.db
-
 # Ignore Visual Studio files
 .vs/
 /.vscode/
