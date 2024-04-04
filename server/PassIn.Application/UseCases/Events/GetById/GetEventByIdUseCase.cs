@@ -2,7 +2,7 @@
 using PassIn.Exceptions;
 using PassIn.Infrastructure;
 
-namespace PassIn.Application.UseCases.GetById
+namespace PassIn.Application.UseCases.Events.GetById
 {
     public class GetEventByIdUseCase
     {
@@ -12,7 +12,7 @@ namespace PassIn.Application.UseCases.GetById
 
             var entity = dbContext.Events.Find(id);
 
-            if (entity is null) throw new PassInException("Event not found");
+            if (entity is null) throw new NotFoundException("Event not found");
 
             return new ResponseEventJson
             {
