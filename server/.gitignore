@@ -1,0 +1,100 @@
+#db
+../PassInDb.db
+
+# Ignore Visual Studio files
+.vs/
+/.vscode/
+
+# Build output
+bin/
+obj/
+# Ignore SDK folders
+/sdk/
+
+# .NET Core
+*.nuget.props
+*.nuget.targets
+*.user
+*.lock.json
+.project.assets.json
+*.project.assets.cache
+*.csproj.nuget.cache
+*.dll
+*.pdb
+*.cache
+*.exe
+*.cache/
+*.log
+*.vspx
+*.vsp
+*.vspx.recipe
+*.vspx.cooked
+*.vspx.log
+*.sqlite
+
+# Razor Precompilation cache
+*.razor.p.cache
+*.razor.s.cache
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Roslyn cache directories
+*.ide/
+*.sln.ide/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference however
+# don't ignore directories named .nuget or tools
+!packages/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Visual Studio cache files
+*.cache
+*.vspx
+*.vspx.recipe
+*.vspx.cooked
+*.vspx.log
+
+# Others
+*.log
+*.sqlite
+*.sqlite3
