@@ -2,4 +2,5 @@
 public class ResponseAllAttendeesJson
 {
     public List<ResponseAttendeeJson> Attendees { get; set; } = [];
+    public int Total { get; set; }
 }
